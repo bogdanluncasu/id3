@@ -185,7 +185,7 @@ def run():
 
     # ip and port of server
     # by default http server port is 80
-    server_address = ('54.173.248.172', 6969)
+    server_address = ('127.0.0.1', 80)
     httpd = HTTPServer(server_address, ID3Handler)
     print('http server is running...')
     httpd.serve_forever()
